@@ -1,0 +1,62 @@
+/*
+
+almostwhite - #F9FCED
+
+orange - #FFA502
+
+green -#248C42
+
+-------
+
+box-shadow: 0px 1px 2px  #248C42, 
+            0px 2px 4px #248C42, 
+            0px 4px 8px  #248C42, 
+            0px 8px 16px  #248C42;
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30,30, 30);
+    color: #F9FCED;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: "Sarabun", sans-serif;
+}
+
+/* ---------------------------------------- */
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #137e03;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* ---------------------------------------- */
