@@ -1,0 +1,22 @@
+:root {
+    /* colors */
+    --color-text: #F9FCED;
+
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    --orange: #FFA502;
+    --green: #248C42;
+    --black: rbg(30,30, 30);
+    --almostWhite: #F9FCED;
+
+    /* fonts */
+    --font-sarabun: 'Sarabun', sans-serif;
+    --font-outfit: 'Outfit', sans-serif;
+
+}
+
+

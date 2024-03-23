@@ -1,0 +1,129 @@
+@import "../../vars.css";
+
+.navbar {
+    position: relative;
+    width: 100vw;
+    height: 6rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+
+.logo {
+    object-fit: cover;
+    height: 3.5rem;
+    width: 3rem;
+}
+
+.menuBtn {
+    font-size: 3rem;
+
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex   ;
+}
+
+.menuItem {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding-bottom: 0.7rem;
+    color: var(--color-text);
+    cursor: pointer;
+
+}
+
+.menuItem:hover {
+    color: var(--green);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--green);
+
+}
+
+.socialIcons {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding-bottom: 0.7rem;
+    color: var(--color-text);
+    cursor: pointer;
+    gap: 1rem;
+
+}
+
+.socialIcons a {
+    
+    color: var(--color-text);
+    transition: all 0.2s ease-in-out;
+}
+
+.socialIcons a:hover {
+    transform: scale(1.2);
+    color: var(--green);
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        z-index: 3;
+    }
+
+    .menuBtn{
+        margin-top: 0.5rem;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .menuItem {
+        display: none;
+        
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        gap: 2rem;
+        margin: 1rem 0;
+        padding: 1rem;
+        color: var(--color-text);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        background-color: var(--color-bg);
+    }
+
+    .socialIcons {
+        display: none;
+    }
+
+    .menuOpen {
+        margin-top: 2rem;
+        display: flex;
+        z-index: 1;
+    }
+        
+
+
+
+}

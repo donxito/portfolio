@@ -1,30 +1,55 @@
-import "./navbar.css";
+import styles from "./navbar.module.css";
 import logo from "../../assets/logo.png";
+import { useState } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { IoMenu } from "react-icons/io5";
+import { IoClose } from "react-icons/io5";
 
 function Navbar() {
-  return (
-    <nav className="navbar">
-      <img className="logo" src={logo} alt="logo" />
 
-      <div className="menu">
-        <Link className="menu-item" to="home" smooth={true} duration={500}>
+  const [menuOpen, setMenuOpen] = useState(false);
+
+
+
+  return (
+    <nav className={styles.navbar}>
+    
+      <img className={styles.logo}  src={logo} alt="logo" />
+
+      <div className={styles.menu}> 
+
+    
+      {menuOpen ? (
+          <IoClose
+            className={`${styles.menuBtn}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
+        ) : (
+          <IoMenu
+            className={`${styles.menuBtn}`}
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
+        )}
+        
+        
+
+        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
           Home
         </Link>
-        <Link className="menu-item" to="about" smooth={true} duration={500}>
+        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
           About
         </Link>
-        <Link className="menu-item" to="projects" smooth={true} duration={500}>
+        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
           Projects
         </Link>
-        <Link className="menu-item" to="contact" smooth={true} duration={500}>
+        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
           Contact
         </Link>
       </div>
 
-      <div className="social-icons">
+      <div className={styles.socialIcons}>
         <a
           href="https://www.linkedin.com/in/miguelchito-reactdeveloper/"
           target="_blank"
