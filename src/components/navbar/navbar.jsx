@@ -1,3 +1,4 @@
+
 import styles from "./navbar.module.css";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
@@ -7,10 +8,11 @@ import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 
-function Navbar() {
+
+
+const Navbar = () => {
 
   const [menuOpen, setMenuOpen] = useState(false);
-
 
 
   return (
@@ -68,5 +70,6 @@ function Navbar() {
     </nav>
   );
 }
+
 
 export default Navbar;

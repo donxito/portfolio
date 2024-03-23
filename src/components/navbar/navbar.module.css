@@ -6,13 +6,13 @@
     height: 6rem;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 2;
 
 }
 
@@ -77,10 +77,15 @@
 
 }
 
-@media screen and (max-width: 768px) {
+.menuBtn {
+    display:  none;
+}
+
+@media screen and (max-width: 840px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+      
     }
     .menu {
         position: absolute;
@@ -114,6 +119,10 @@
     }
 
     .socialIcons {
+    
+    }
+
+    .logo {
         display: none;
     }
 

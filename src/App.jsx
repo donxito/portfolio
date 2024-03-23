@@ -1,17 +1,15 @@
+import styles from "./App.module.css";
 
-import styles from './App.module.css'
+import Navbar from "./components/navbar/navbar";
+import Hero from "./components/hero/hero";
 
-import Navbar from './components/navbar/navbar'
-
-function App() {
-
-
+const App = () => {
   return (
     <div className={styles.App}>
-
-   <Navbar/>
+      <Navbar />
+      <Hero />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

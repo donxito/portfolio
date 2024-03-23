@@ -34,24 +34,3 @@ box-shadow: 0px 1px 2px  #248C42,
 
 
 
-/* SCROLLBAR  DELETE?*/
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #137e03;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
