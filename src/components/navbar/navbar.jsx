@@ -1,6 +1,6 @@
 
 import styles from "./navbar.module.css";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,12 +17,9 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-    
-      <img className={styles.logo}  src={logo} alt="logo" />
 
       <div className={styles.menu}> 
 
-    
       {menuOpen ? (
           <IoClose
             className={`${styles.menuBtn}`}

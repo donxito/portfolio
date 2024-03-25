@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "EventSlap",
+        "description": "Eventslap a is Full-stack application using the MERN stack (MongoDB, Express, React, and Node.JS). SPA frontend, built with React, consisting of multiple views and implementing all CRUD actions. The backend is a REST API built with ExpressJS, MongoDB, and Mongoose.",
+        "summary": "It allows logged-in users to manage all the events and venues that they own in the database doing full CRUD. Anonymous users can see venues, events and free events, and also doing search by name or date. Logged-in users can create new venues and events, and view all existing ones.",
+        "skills": ["React", "ExpressJS", "MongoDB", "Mongoose", "NodeJS", "Tailwind"],
+        "image":"eventslap.png",
+        "demo": "https://eventslap.netlify.app",
+        "repo": "https://github.com/mig-max/eventManager-frontend"
+    },
+
+    {
+        "id": 2,
+        "title": "TravelTips",
+        "description": "This project has been created as a Single Page Application (SPA) using React. Integrated with an external API, the React application allows users to perform CRUD operations.",
+        "summary": "This project has been created as a Single Page Application (SPA) using React. The application consists of multiple views, providing a user-friendly interface for exploring and sharing travel advice. Integrated with an external API, the React application allows users to perform CRUD operations (Create, Read, Update, Delete) on travel-related content.",
+        "skills": ["React", "React-Router", "Axios", "Tailwind"],
+        "image":"traveltips.png",
+        "demo": "https://toptraveltips.netlify.app",
+        "repo": "https://github.com/mig-max/travel-tips"
+    },
+
+    {
+        "id": 3,
+        "title": "Paperboy",
+        "description": "Small remake of the 80's legendary paperboy arcade game.",
+        "summary": "This project consists in the creation of a browser-based game using HTML, CSS, JavaScript, DOM manipulation, and Object-Oriented Programming (OOP). This is a remake of the first game I ever played, back in the 80’s. Paperboy.",
+        "skills": ["HTML", "CSS", "JavaScript", "Object-Oriented Programming (OOP)", "DOM Manipulation"],
+        "image":"paperboy.png",
+        "demo": "https://donxito.github.io/game_paperboy",
+        "repo": "https://github.com/donxito/game_paperboy"
+    }
+   
+]

@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem;
+   
     z-index: 1;
     margin-right: 10%;
     margin-left: 10%
@@ -72,10 +72,10 @@ span {
     position: absolute;
     width: 50vw;
     height: 50vh;
-    min-width: 350px;
-    min-height: 350px;
-    top: -10px;
-    left: -10vw;
+    min-width: 200px;
+    min-height: 200px;
+    top: 110px;
+    left: -8vw;
     border-radius: 764px;
     background: var(--color-secondary);
     filter:blur(100px);
