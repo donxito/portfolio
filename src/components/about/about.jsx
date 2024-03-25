@@ -18,6 +18,10 @@ const About = () => {
     I'm  a passionate introvert who loves building things with code. A dedicated and energetic Full Stack Developer with a solid background in graphic design, fascinated by web applications, who focuses on user experience and interface design. 
     </p>
     <br/>
+    <p className={styles.aboutText}>
+    My first experience with programming was when I was 12, but I didn’t last long: I was a big fan of playing games in my Commodore 64, the iconic games, the music synthesiser. So I decided I wanted to do computer science. My mom bought me a C++ Reference Manual. It was several hundred pages, and totally inscrutable to me.
+    </p>
+    <br/>
     <h3 className={styles.aboutText}>
     A Chef, a Designer, and a Developer...
     </h3>
