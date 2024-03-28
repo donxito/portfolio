@@ -1,0 +1,106 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1.25px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    max-width: 60rem;
+    margin-right: 10%;
+    margin-left: 10%
+   
+}
+
+.name, .email, .message {
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: var(--color-text);
+    border-radius: 0.5rem;
+    background: var(--color-secondary);
+}
+
+
+
+.submit {
+    font-size: 1.1rem;
+    padding: 0.75rem 3.5rem;
+    color: var(--color-text);
+    border-radius: 0.5rem;
+    background: var(--color-primary);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.submit:hover {
+    background: var(--green);
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem;
+    padding-bottom: 0.7rem;
+    color: var(--color-text);
+    cursor: pointer;
+    gap: 1rem;
+
+}
+
+.socialIcons a {
+    
+    color: var(--color-text);
+    transition: all 0.2s ease-in-out;
+}
+
+.socialIcons a:hover {
+    transform: scale(1.2);
+    color: var(--green);
+
+}
+
+@media screen and (max-width: 840px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

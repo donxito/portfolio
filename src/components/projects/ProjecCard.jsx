@@ -14,7 +14,7 @@ const ProjecCard = (props) => {
       <p className={styles.description}>{props.description}</p>
       <ul className={styles.skills}>
         {props.skills.map((skill, id) => {
-          <li key={id} className={styles.skill}>{skill}</li>;
+          return <li key={id} className={styles.skill}>{skill}</li>;
         })}
       </ul>
       <div className={styles.links}>
