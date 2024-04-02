@@ -45,6 +45,12 @@
 
 }
 
+.active {
+    color: var(--green);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--green);
+}
+
 .socialIcons {
     display: flex;
     font-size: 1.4rem;
@@ -72,6 +78,11 @@
 .menuBtn {
     display:  none;
 }
+
+
+
+
+
 
 @media screen and (max-width: 840px) {
     .navbar {

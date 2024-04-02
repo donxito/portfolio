@@ -33,16 +33,16 @@ const Navbar = () => {
         
         
 
-        <Link activeClass="active" to="home" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
+        <Link activeClass={styles.active} to="home" smooth={true} duration={500} spy={true} offset={-50} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Home
         </Link>
-        <Link activeClass="active" to="about" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
+        <Link activeClass={styles.active} to="about" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           About
         </Link>
-        <Link activeClass="projects" to="projects" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
+        <Link activeClass={styles.active} to="projects" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Projects
         </Link>
-        <Link activeClass="active" to="contact" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
+        <Link activeClass={styles.active} to="contact" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Contact
         </Link>
       </div>
