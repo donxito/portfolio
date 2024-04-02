@@ -1,39 +1,31 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
     width: 100vw;
-    height: 6rem;
-    max-width: 90rem;
+    height: 4rem;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 2;
-
+    z-index: 6;
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
-
-.logo {
-    object-fit: cover;
-    height: 3.5rem;
-    width: 3rem;
+.menu {
+    display: flex;
+    margin-left: 5%;
 }
 
 .menuBtn {
     font-size: 3rem;
-
     color: var(--color-text);
     cursor: pointer;
 }
 
-
-.menu {
-    display: flex   ;
-}
 
 .menuItem {
     display: flex;
@@ -55,9 +47,9 @@
 
 .socialIcons {
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin: 1rem;
+    margin-right: 5%;
     padding-bottom: 0.7rem;
     color: var(--color-text);
     cursor: pointer;
@@ -83,10 +75,10 @@
 
 @media screen and (max-width: 840px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
-      
     }
+
     .menu {
         position: absolute;
         right: 0;
@@ -105,12 +97,10 @@
     
     .menuItem {
         display: none;
-        
         flex-direction: column;
         align-items: center;
         border-radius: 10px;
-        gap: 2rem;
-        margin: 1rem 0;
+        margin: 0.5rem 0;
         padding: 1rem;
         color: var(--color-text);
         transition: all 0.2s ease-in-out;
@@ -118,21 +108,18 @@
         background-color: var(--color-bg);
     }
 
-    .socialIcons {
-    
-    }
-
-    .logo {
-        display: none;
-    }
 
     .menuOpen {
         margin-top: 2rem;
         display: flex;
         z-index: 1;
     }
-        
 
+    .socialIcons {
+        margin-top: 1rem;
+        margin-left: 5%;
+
+    }
 
 
 }

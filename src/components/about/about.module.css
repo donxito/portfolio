@@ -7,12 +7,9 @@
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 15px;
     padding: 73px;
-   
     z-index: 1;
-    margin-top: 130px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 0;
+    margin: 130px 10%;
+ 
 }
 
 .title {
@@ -83,16 +80,16 @@
   }
   
 
-
-
-
-
-
-@media screen and (max-width: 840px){
+  @media screen and (max-width: 844px) {
     .container {
         background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 20px; 
+        margin: 130px 5%;
+    }
+
+    .title {
+        font-size: 1.5rem; 
+        letter-spacing: 1.25px; 
     }
 
     .content {
@@ -104,15 +101,50 @@
     }
 
     .aboutTextContainer {
-        margin-top: 30px;
+        margin-top: 20px; 
     }
 
     .aboutText {
-        padding-left: 0;
-        padding-right: 0;
+        padding: 10px; 
+        font-size: 1rem; 
     }
-    
+
+    .skillsContainer {
+        margin: 20px 0; 
+    }
+
+    .icons {
+        font-size: 2rem; 
+        padding: 5px; 
+    }
+
+    #icons2 {
+        font-size: 2.7rem;
+        padding: 5px;
+    }
 }
 
+@media screen and (max-width: 390px) {
+    .container {
+        background-color: transparent;
+        padding: 10px; 
+        margin: 130px 5%;
+    }
 
+    .title {
+        font-size: 1.2rem; 
+        letter-spacing: 1px; 
+    }
 
+    .aboutText {
+        font-size: 0.9rem; 
+    }
+
+    .icons {
+        font-size: 1.5rem; 
+    }
+
+    #icons2 {
+        font-size: 2rem;
+    }
+}

@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     z-index: 1;
     margin-right: 10%;
-    margin-left: 10%
+    margin-left: 10%;
+    margin-top: 5%;
    
 }
 
@@ -98,15 +98,31 @@ span {
 
 }
 
+@media screen and (max-width: 1400px) {
+    .container {
+        margin-top: 20%;  
+        margin-bottom: 30%;
+    }
+
+}
+
 @media screen and (max-width: 840px) {
     .container {
         flex-direction: column-reverse;
-        
+        margin-top: 30%;  
     }
 
     .content {
         align-items: center;
         text-align: center;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
     }
 
 }

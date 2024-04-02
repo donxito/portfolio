@@ -1,10 +1,8 @@
 @import "../../vars.css";
 
 .container{
-    margin-top: 5rem;
     color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 130px 10%;
 }
 
 .title {
@@ -25,4 +23,24 @@
     align-items: center;
     gap: 3rem;
     width: 100%;
+}
+
+@media screen and (max-width: 844px) {
+    .title {
+        font-size: 1.5rem; 
+        letter-spacing: 1.25px; 
+    }
+
+    .projects {
+        gap: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 390px) {
+    .title {
+        font-size: 1.2rem; 
+        letter-spacing: 1px; 
+    }
+    
 }

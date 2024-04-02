@@ -1,6 +1,5 @@
 
 import styles from "./navbar.module.css";
-// import logo from "../../assets/logo.png";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -34,16 +33,16 @@ const Navbar = () => {
         
         
 
-        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
+        <Link activeClass="active" to="home" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Home
         </Link>
-        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
+        <Link activeClass="active" to="about" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           About
         </Link>
-        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
+        <Link activeClass="projects" to="projects" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Projects
         </Link>
-        <Link className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`} to="home" smooth={true} duration={500} onClick={() => setMenuOpen(false)}>
+        <Link activeClass="active" to="contact" smooth={true} duration={500} spy={true} offset={-100} className={`${styles.menuItem} ${menuOpen && styles.menuOpen}`}  onClick={() => setMenuOpen(false)}>
           Contact
         </Link>
       </div>
