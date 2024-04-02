@@ -10,14 +10,18 @@ import {
   faSquareJs,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
+import { GlowCapture, Glow } from "@codaworks/react-glow";
 
 const About = () => {
   return (
     <section className={styles.container} id="about">
+  
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-  
+      
         <div className={styles.aboutTextContainer}>
+        <GlowCapture>
+      <Glow color="hsla(124, 100%, 51%, 1)">
           <p className={styles.aboutText}>
             I'm a passionate introvert who loves building things with code. A
             dedicated and energetic Full Stack Developer with a solid background
@@ -44,6 +48,8 @@ const About = () => {
             MongoDB, Express, HTML, and CSS.
           </p>
 
+          </Glow>
+        </GlowCapture>  
           <div className={styles.skills}>
             <div className={styles.skillsContainer}>
             
@@ -61,7 +67,9 @@ const About = () => {
             
           </div>
         </div>
+    
       </div>
+     
     </section>
   );
 };

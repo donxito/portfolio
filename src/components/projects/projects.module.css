@@ -3,6 +3,7 @@
 .container{
     color: var(--color-text);
     margin: 130px 10%;
+    padding: 2rem;
 }
 
 .title {
@@ -12,6 +13,8 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--green);
 } 
 
 .projects {

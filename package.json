@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codaworks/react-glow": "^1.0.6",
     "@emailjs/browser": "^4.3.3",
     "@fontsource-variable/outfit": "^5.0.12",
     "@fontsource/outfit": "^5.0.12",

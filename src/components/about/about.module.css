@@ -6,7 +6,7 @@
     position: relative;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 15px;
-    padding: 73px;
+    padding: 2rem;
     z-index: 1;
     margin: 130px 10%;
  
@@ -19,6 +19,8 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--green);
 }
 
 .content {
@@ -43,6 +45,9 @@
     font-size:  1.2rem;
 }
 
+[glow] .aboutText {
+    color: var(--glow-color);
+}
 
 .skills {
     display: flex;

@@ -18,6 +18,8 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--green);
 }
 
 .description {
@@ -55,13 +57,13 @@
     padding: 0.75rem 3.5rem;
     color: var(--color-text);
     border-radius: 0.5rem;
-    background: var(--color-primary);
+    background: var(--green);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .submit:hover {
-    background: var(--green);
+    background: var(--color-primary);
 }
 
 .socialIcons {

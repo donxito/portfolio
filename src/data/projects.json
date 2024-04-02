@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "EventSlap",
-        "description": "Eventslap a is Full-stack application using the MERN stack (MongoDB, Express, React, and Node.JS). SPA frontend, built with React, consisting of multiple views and implementing all CRUD actions. The backend is a REST API built with ExpressJS, MongoDB, and Mongoose.",
+        "description": "Full-stack application using the MERN stack (MongoDB, Express, React, and Node.JS). SPA frontend, built with React, consisting of multiple views and implementing all CRUD actions. The backend is a REST API built with ExpressJS, MongoDB, and Mongoose.",
         "summary": "It allows logged-in users to manage all the events and venues that they own in the database doing full CRUD. Anonymous users can see venues, events and free events, and also doing search by name or date. Logged-in users can create new venues and events, and view all existing ones.",
         "skills": ["React", "ExpressJS", "MongoDB", "Mongoose", "NodeJS", "Tailwind"],
         "image":"eventslap.png",

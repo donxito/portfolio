@@ -9,7 +9,7 @@
     z-index: 1;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 4%;
    
 }
 
@@ -26,6 +26,10 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-outfit);
+    letter-spacing: 2px;
+    line-height: 1.2;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 
 span {
@@ -37,6 +41,8 @@ span {
     font-weight: 600;
     margin-bottom: 33px;
     font-family: var(--font-outfit);
+    word-wrap: break-word;
+    line-height: 1.2;
 }
 
 
@@ -74,7 +80,7 @@ span {
     height: 50vh;
     min-width: 200px;
     min-height: 200px;
-    top: 110px;
+    top: 120px;
     left: -8vw;
     border-radius: 764px;
     background: var(--color-secondary);
@@ -100,10 +106,10 @@ span {
 
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
     .container {
         flex-direction: column-reverse;
-        margin-top: 10%;  
+        margin-top: 20%;  
     }
 
     .content {
@@ -117,6 +123,24 @@ span {
 
     .description {
         font-size: 1.5rem;
+    }
+
+    .topBlur {
+        width: 80vw;
+        height: 25vh;
+        min-width: 150px;
+        min-height: 150px;
+        top: 80px;
+        left: -5vw;
+    }
+
+    .bottomBlur {
+        width: 90vw;
+        height: 30vh;
+        min-width: 250px;
+        min-height: 200px;
+        top: -5px;
+        right: -10vw;
     }
 
 }
