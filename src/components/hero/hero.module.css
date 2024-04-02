@@ -98,18 +98,12 @@ span {
 
 }
 
-@media screen and (max-width: 1400px) {
-    .container {
-        margin-top: 20%;  
-        margin-bottom: 30%;
-    }
 
-}
 
 @media screen and (max-width: 840px) {
     .container {
         flex-direction: column-reverse;
-        margin-top: 30%;  
+        margin-top: 10%;  
     }
 
     .content {
