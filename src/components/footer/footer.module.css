@@ -8,6 +8,6 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-bg);
-    color: var(--color-text);
+    color: var(--green);
     font-weight: 500;
 }
