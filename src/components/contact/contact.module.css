@@ -29,12 +29,22 @@
 }
 
 .description {
-    font-size: 1.2rem;
-    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    font-size:  1rem;
+    font-weight: 500;
     letter-spacing: 1.25px;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    color: var(--green);
+    cursor: none;
+}
+
+[glow] .description {
+    color: var(--glow-color);
 }
 
 .form {
