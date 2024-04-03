@@ -9,6 +9,12 @@
     padding: 2rem;
     z-index: 1;
     margin: 130px 10%;
+
+    box-shadow: 
+    0px 1px 2px  #248C42, 
+    0px 2px 4px #248C42, 
+    0px 4px 6px  #248C42, 
+    0px 6px 8px  #248C42;
  
 }
 
@@ -31,10 +37,13 @@
 }
 
 .aboutTextContainer {
-    color: var(--color-text);
+    color: var(--green);
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .aboutText {
@@ -43,6 +52,14 @@
     align-items: center;
     padding: 20px;
     font-size:  1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+
+    cursor:none;
+
 }
 
 [glow] .aboutText {
@@ -90,6 +107,7 @@
         background-color: transparent;
         padding: 20px; 
         margin: 130px 5%;
+        box-shadow: none;
     }
 
     .title {

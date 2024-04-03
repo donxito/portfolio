@@ -8,6 +8,12 @@
     max-width: 80%;
     padding: 2rem;
 
+    box-shadow: 
+    0px 1px 2px  #248C42, 
+    0px 2px 4px #248C42, 
+    0px 4px 6px  #248C42, 
+    0px 6px 8px  #248C42;
+
  
 
 }
@@ -98,6 +104,7 @@
         background-color: transparent;
         padding-left: 0;
         padding-right: 0;
+        box-shadow: none;
     }
     .title {
         font-size: 1.5rem; 
