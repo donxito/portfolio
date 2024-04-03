@@ -3,12 +3,13 @@
 import styles from "./ProjectCard.module.css";
 
 
+
 const ProjecCard = (props) => {
   return (
     <div className={styles.container}>
       <img
         className={styles.image}
-        src={`./src/assets/${props.image}`}
+        src={`images/${props.img}`}
         alt={`Image of ${props.title}`}
       />
       <h3 className={styles.title}>{props.title}</h3>
