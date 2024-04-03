@@ -23,7 +23,7 @@ const About = () => {
         <GlowCapture>
         <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.aboutText}>
-            I'm a passionate introvert who loves building things with code.<br/> A
+            I'm a passionate introvert who loves building things with code. A
             dedicated and energetic Full Stack Developer with a solid background
             in graphic design, fascinated by web applications, who focuses on
             user experience and interface design.

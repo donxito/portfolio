@@ -9,7 +9,7 @@ const ProjecCard = (props) => {
     <div className={styles.container}>
       <img
         className={styles.image}
-        src={`images/${props.img}`}
+        src={props.image}
         alt={`Image of ${props.title}`}
       />
       <h3 className={styles.title}>{props.title}</h3>

@@ -47,12 +47,11 @@ const Contact = () => {
       <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
             Whether you're interested in discussing a project, sharing ideas, or
-            simply dropping a friendly hello, I'm eager to hear from you! You
-            can reach out through the contact form provided below, connect with
-            me on LinkedIn, or send me an email if that suits you better.
+            simply dropping a friendly hello, feel free to get in touch with me.<br/>
+            You can reach out through the contact form provided below, connect with
+            me on LinkedIn, or send me an email if that suits you better.<br/>
             Whichever method you prefer, I'm thrilled to connect and delve into
-            the potential opportunities together. Can't wait to hear from you
-            soon!
+            the potential opportunities together.
           </p>
         </Glow>
       </GlowCapture>

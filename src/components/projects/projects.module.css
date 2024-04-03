@@ -59,10 +59,8 @@
 
 @media screen and (max-width: 844px) {
     .container {
-        background-color: transparent;
         padding: 20px; 
         margin: 130px 5%;
-        box-shadow: none;
     }
     .title {
         font-size: 1.5rem; 
