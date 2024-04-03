@@ -23,29 +23,30 @@ const About = () => {
         <GlowCapture>
         <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.aboutText}>
-            I'm a passionate introvert who loves building things with code. A
+            I'm a passionate introvert who loves building things with code.<br/> A
             dedicated and energetic Full Stack Developer with a solid background
             in graphic design, fascinated by web applications, who focuses on
             user experience and interface design.
           </p>
-          <h3 className={styles.aboutText}>
+          <p className={styles.aboutText}>
             A Chef, a Designer, and a Developer...
-          </h3>
+          </p>
           <p className={styles.aboutText}>
             After several years of experience in the Graphic & Editorial Design
             Industry, I changed careers to become a Chef and traveled across
-            Southeast Asia while cooking in various locations. Now, I have made
+            Southeast Asia while cooking in various locations.<br/> Now, I have made
             the leap to become a Full Stack Developer. While this is a new
             journey for me, my previous professional experiences have equipped
             me with problem-solving skills, the ability to adapt to new work
             environments, and the ease of acquiring new knowledge.
           </p>
           <p className={styles.aboutText}>
+            Proficient in the MERN
+            stack and REST API, including JavaScript (ES6), React, Node.js,
+            MongoDB, Express, HTML, and CSS.<br/>
             I aim to create dynamic and intuitive web applications. My goal is
             to find a position where I can utilize my background and skills to
-            bring value and continuously grow and learn. Proficient in the MERN
-            stack and REST API, including JavaScript (ES6), React, Node.js,
-            MongoDB, Express, HTML, and CSS.
+            bring value and continuously grow and learn.
           </p>
 
           </Glow>

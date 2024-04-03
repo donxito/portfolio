@@ -12,8 +12,9 @@ const Projects = () => {
           <p className={styles.description}>
             Here are some of my personal projects that I have created. These
             creations are born from my journey through learning, particularly
-            during the dynamic experience of the Ironhack remote bootcamp. Dive
-            into my imaginative solutions as I transform obstacles and glitches
+            during the dynamic experience of the Ironhack remote bootcamp.<br/></p>
+          <p className={styles.description}> 
+            Dive into my imaginative solutions as I transform obstacles and glitches
             into valuable learning experiences, crafting innovative features
             that enhance the coding adventure!
           </p>

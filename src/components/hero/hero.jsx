@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import styles from "./hero.module.css";
+import heroImage from "../../assets/hero2.png"
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
           Get in touch
         </a>
       </div>
-      <img src="./src/assets/hero2.png" alt="hero" className={styles.heroImg} />
+      <img src={heroImage} alt="hero" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
