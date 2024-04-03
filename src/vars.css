@@ -12,6 +12,7 @@
     --green: #248C42;
     --black: rbg(30,30, 30);
     --almostWhite: #F9FCED;
+    --glow-color: hsla(231, 100%, 100%, 1);
 
     /* fonts */
     --font-sarabun: 'Sarabun', sans-serif;

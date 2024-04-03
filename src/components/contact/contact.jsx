@@ -44,7 +44,7 @@ const Contact = () => {
       <h2 className={styles.title}>Contact</h2>
 
       <GlowCapture>
-        <Glow color="hsla(124, 100%, 50%, 1)">
+      <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
             Whether you're interested in discussing a project, sharing ideas, or
             simply dropping a friendly hello, I'm eager to hear from you! You

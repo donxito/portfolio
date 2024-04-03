@@ -9,10 +9,10 @@
     padding: 2rem;
 
     box-shadow: 
-    0px 1px 2px  #248C42, 
-    0px 2px 4px #248C42, 
-    0px 4px 6px  #248C42, 
-    0px 6px 8px  #248C42;
+    0px 1px 2px  #FFA502, 
+    0px 2px 4px #FFA502, 
+    0px 4px 6px  #FFA502, 
+    0px 6px 8px  #FFA502;
 
  
 
@@ -25,7 +25,7 @@
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 0.8rem;
-    border-bottom: 2px solid var(--green);
+    border-bottom: 2px solid var(--orange);
 }
 
 .description {
@@ -39,7 +39,7 @@
     text-align: justify;
     text-justify: inter-word;
     line-height: 1.5;
-    color: var(--green);
+    color: var(--orange);
     cursor: none;
 }
 
@@ -73,7 +73,7 @@
     padding: 0.75rem 3.5rem;
     color: var(--color-text);
     border-radius: 0.5rem;
-    background: var(--green);
+    background: var(--orange);
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
@@ -104,7 +104,7 @@
 
 .socialIcons a:hover {
     transform: scale(1.2);
-    color: var(--green);
+    color: var(--orange);
 
 }
 

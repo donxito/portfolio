@@ -39,14 +39,14 @@
 }
 
 .menuItem:hover {
-    color: var(--green);
+    color: var(--orange);
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid var(--green);
+    border-bottom: 3px solid var(--orange);
 
 }
 
 .active {
-    color: var(--green);
+    color: var(--orange);
 }
 
 .socialIcons {
@@ -69,7 +69,7 @@
 
 .socialIcons a:hover {
     transform: scale(1.2);
-    color: var(--green);
+    color: var(--orange);
 
 }
 

@@ -21,7 +21,7 @@ const About = () => {
       
         <div className={styles.aboutTextContainer}>
         <GlowCapture>
-      <Glow color="hsla(124, 100%, 50%, 1)">
+        <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.aboutText}>
             I'm a passionate introvert who loves building things with code. A
             dedicated and energetic Full Stack Developer with a solid background

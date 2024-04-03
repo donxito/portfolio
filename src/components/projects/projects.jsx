@@ -8,7 +8,7 @@ const Projects = () => {
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
       <GlowCapture>
-        <Glow color="hsla(124, 100%, 50%, 1)">
+      <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
             Here are some of my personal projects that I have created. These
             creations are born from my journey through learning, particularly
