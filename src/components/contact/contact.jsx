@@ -2,11 +2,11 @@
 import styles from "./contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
-import cv from "../../assets/MiguelChitoResume.pdf"
+import cv from "../../assets/MiguelChitoResume.pdf";
 
 const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
@@ -44,12 +44,14 @@ const Contact = () => {
       <h2 className={styles.title}>Contact</h2>
 
       <GlowCapture>
-      <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
+        <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
             Whether you're interested in discussing a project, sharing ideas, or
-            simply dropping a friendly hello, feel free to get in touch with me.<br/>
-            You can reach out through the contact form provided below, connect with
-            me on LinkedIn, or send me an email if that suits you better.<br/>
+            simply dropping a friendly hello, feel free to get in touch with me.
+            <br />
+            You can reach out through the contact form provided below, connect
+            with me on LinkedIn, or send me an email if that suits you better.
+            <br />
             Whichever method you prefer, I'm thrilled to connect and delve into
             the potential opportunities together.
           </p>
@@ -110,14 +112,9 @@ const Contact = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
 
-        <a
-          href={cv}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={cv} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFile} />
         </a>
-
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
-.container {
+
+.container{
     position: relative;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 15px;
@@ -13,9 +14,6 @@
     0px 2px 4px #FFA502, 
     0px 4px 6px  #FFA502, 
     0px 6px 8px  #FFA502;
-
- 
-
 }
 
 .title {
@@ -53,8 +51,6 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-  
-
 }
 
 .name, .email, .message {
@@ -112,9 +108,8 @@
 
 @media screen and (max-width: 844px) {
     .container {
-
-        padding-left: 0;
-        padding-right: 0;
+        padding: 20px; 
+        margin: 130px 5%;
     }
     .title {
         font-size: 1.5rem; 

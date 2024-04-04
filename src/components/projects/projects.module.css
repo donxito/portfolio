@@ -66,7 +66,9 @@
         font-size: 1.5rem; 
         letter-spacing: 1.25px; 
     }
-
+    .description {
+        font-size: 1rem;
+    }  
     .projects {
         gap: 2rem;
     }
@@ -77,6 +79,9 @@
     .title {
         font-size: 1.2rem; 
         letter-spacing: 1px; 
+    }
+    .description {
+        font-size: 0.9rem;
     }
     
 }
