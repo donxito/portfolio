@@ -10,7 +10,13 @@
     width: 380px;
     height: 510px;
 
+    box-shadow: 
+    0px 1px 2px  #576cbc, 
+    0px 2px 4px #576cbc, 
+    0px 4px 6px  #132a55, 
+    0px 6px 8px  #132a55;
 }
+
 
 .image {
     margin-bottom: 1rem;
