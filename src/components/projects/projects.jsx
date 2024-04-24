@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from "./projects.module.css";
 import projects from "../../data/projects.json";
 import ProjecCard from "./ProjecCard";
@@ -10,13 +11,7 @@ const Projects = () => {
       <GlowCapture>
       <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
-            Here are some of my personal projects that I have created. These
-            creations are born from my journey through learning, particularly
-            during the dynamic experience of the Ironhack remote bootcamp.<br/></p>
-          <p className={styles.description}> 
-            Dive into my imaginative solutions as I transform obstacles and glitches
-            into valuable learning experiences, crafting innovative features
-            that enhance the coding adventure!
+          Welcome to my personal project gallery! It's a showcase of my creative journey through learning, exploration, and experience. Here you'll find a collection of my innovative creations, each born from challenges I've faced and lessons I've learned. Dive into my imaginative solutions as I tackle obstacles head-on, turning them into valuable learning experiences.<br/> Join me on an exhilarating coding adventure where innovation knows no bounds. Every project reflects my passion for crafting cutting-edge features that push the boundaries of what's possible. So come explore and discover the magic of creation with me! Let's embark on a journey filled with endless possibilities and transformative experiences.
           </p>
         </Glow>
       </GlowCapture>
