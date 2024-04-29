@@ -6,7 +6,7 @@ import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
-import cv from "../../assets/MiguelChitoResume.pdf";
+import cv from "../../assets/Miguel_Chito_CV.pdf";
 
 const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
