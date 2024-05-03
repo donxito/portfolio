@@ -42,6 +42,16 @@
         "image":"https://res.cloudinary.com/dq08sfqpa/image/upload/v1712179253/event-slap/y92vc5af7e4wkk5v3qxz.png",
         "demo": "https://donxito.github.io/game_paperboy",
         "repo": "https://github.com/donxito/game_paperboy"
+    },
+    {
+        "id": 5,
+        "title": "Simon Game",
+        "description": "Simon game to try jQuery",
+        "summary": "Simon game to try DOM manipulation with jQuery. jQuery is a fast, small, and feature-rich JavaScript library.",
+        "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "image":"https://res.cloudinary.com/dq08sfqpa/image/upload/v1714729658/event-slap/l4cz1rjaopq91fde714f.png",
+        "demo": "https://donxito.github.io/simon-game",
+        "repo": "https://github.com/donxito/simon-game"
     }
    
    
