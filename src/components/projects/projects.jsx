@@ -18,7 +18,6 @@ const Projects = () => {
             challenges I've faced and lessons I've learned. Dive into my
             imaginative solutions as I tackle obstacles head-on, turning them
             into valuable learning experiences.
-           
           </p>
         </Glow>
       </GlowCapture>
