@@ -4,6 +4,7 @@ import projects from "../../data/projects.json";
 import ProjecCard from "./ProjecCard";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 
+console.log(projects)
 const Projects = () => {
   return (
     <section className={styles.container} id="projects">
@@ -17,13 +18,7 @@ const Projects = () => {
             challenges I've faced and lessons I've learned. Dive into my
             imaginative solutions as I tackle obstacles head-on, turning them
             into valuable learning experiences.
-            <br />
-            Join me on an exhilarating coding adventure where innovation knows
-            no bounds. Every project reflects my passion for crafting
-            cutting-edge features that push the boundaries of what's possible.
-            So come explore and discover the magic of creation with me! Let's
-            embark on a journey filled with endless possibilities and
-            transformative experiences.
+           
           </p>
         </Glow>
       </GlowCapture>
