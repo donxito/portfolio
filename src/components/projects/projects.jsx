@@ -12,12 +12,9 @@ const Projects = () => {
       <GlowCapture>
         <Glow color="hsla(231, 100%, 100%, 1)" speed={0.4}>
           <p className={styles.description}>
-            Welcome to my personal project gallery! It's a showcase of my
-            creative journey through learning, exploration, and experience. Here
-            you'll find a collection of my innovative creations, each born from
-            challenges I've faced and lessons I've learned. Dive into my
-            imaginative solutions as I tackle obstacles head-on, turning them
-            into valuable learning experiences.
+          Welcome to my personal project gallery! This showcase reflects my creative journey through learning, exploration, and experience.<br/> 
+          Here, you'll find a collection of my innovative creations, each inspired by the challenges I've faced and the lessons I've learned.<br/> 
+          Dive into my imaginative solutions as I tackle obstacles head-on, transforming them into valuable learning experiences.<br/>
           </p>
         </Glow>
       </GlowCapture>
